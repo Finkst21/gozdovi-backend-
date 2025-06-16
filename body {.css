@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #2e7d32;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #1b5e20;
+}
+
+.drevo-kartica {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    padding: 1rem;
+    background-color: #f1f8e9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.drevo-kartica img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#chatbot-container {
+    background-color: #e8f5e9;
+    padding: 1rem;
+    border-radius: 8px;
+    min-height: 200px;
+}
+
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .drevo-kartica {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
