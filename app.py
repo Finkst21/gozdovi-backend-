@@ -1,3 +1,3 @@
 git add app.py
-git commit -m "Add app.py as entry point"
+git commit -m "Fix syntax error in app.py"
 git push origin main
